@@ -1,6 +1,4 @@
-import dns from "dns";
 
-dns.setServers(["0.0.0.0"]);
 import "dotenv/config";
 import express from "express";
 import mongoose from "mongoose";
